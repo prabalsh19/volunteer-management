@@ -1,0 +1,112 @@
+@import "../App.scss";
+
+.volunteer {
+  margin: 2rem 10%;
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    margin-top: 2rem;
+    tr,
+    td {
+      border: 1px solid;
+    }
+    td {
+      padding: 5px;
+    }
+    .btns {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      border: none;
+    }
+  }
+}
+.volunteerForm {
+  width: max-content;
+  margin: 2rem auto;
+  h1 {
+    text-align: center;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+
+    input,
+    select {
+      width: 20vw;
+      padding: 5px;
+    }
+    button {
+      width: 20vw;
+    }
+  }
+}
+.volunteerDetails,
+.eventDetails {
+  margin: 2rem 10%;
+}
+
+.event {
+  margin: 2rem 10%;
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    margin-top: 2rem;
+    tr,
+    td {
+      border: 1px solid;
+    }
+    td {
+      padding: 5px;
+    }
+    .btns {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      border: none;
+    }
+  }
+}
+.eventForm {
+  margin: 2rem 10%;
+  h1 {
+    text-align: center;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+
+    input {
+      width: 20vw;
+    }
+    button {
+      width: 20vw;
+    }
+  }
+}
+
+.summary {
+  margin: 2rem 10%;
+
+  &__container {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    &__item {
+      width: 22rem;
+      background-color: $primary-color;
+      padding: 1rem;
+      border-radius: 1rem;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+$primary-color: rgb(103, 96, 96);
+
+* {
+  box-sizing: border-box;
+  line-height: 1.6;
+}
+body {
+  font-family: "Courier New", Courier, monospace;
+  margin: 0;
+}
+
+.btn {
+  background-color: rgb(103, 96, 96);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
